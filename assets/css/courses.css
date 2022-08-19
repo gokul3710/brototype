@@ -1,0 +1,29 @@
+:root{
+    --color-primary: #36005a;
+    --color-success: #00bf8e;
+    --color--warning: #f7c94b;
+    --color--danger: #f75842;
+    --color--danger-var: rgba(247, 88, 66, 0.4);
+    --color--white: #fff;
+    --color--light: rgba(255, 255, 255, 0.7);
+    --color--black: #000;
+    --color--bg: #140021;
+    --color--bg-1: #1e0032;
+    --color--bg-2: #25003e;
+
+    --container-width-lg: 80%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+}
+
+.courses{
+    margin-top: 1rem;
+}
+
+.other-videos{
+    margin-top: 6rem;
+    border-top: 2px solid var(--color--bg-1);
+    padding-top: 6rem;
+}    
