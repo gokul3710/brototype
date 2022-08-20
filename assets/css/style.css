@@ -444,7 +444,11 @@ header{
 }
 
 .testimonial-body p{
-    color: var(--color--bg);
+    color: var(--color-white);
+}
+
+.swiper-pagination-bullet{
+    background: #00d2b5;
 }
 
 
@@ -483,6 +487,7 @@ footer ul li{
 
 footer ul li a:hover{
     text-decoration: underline;
+    color: var(--color-primary);
 }
 
 .footer-socials{
@@ -490,6 +495,15 @@ footer ul li a:hover{
     gap: 1rem;
     font-size: 1.2rem;
     margin-top: 1rem;
+}
+
+.footer-socials i{
+    color: var(--color--black);
+    transition: var(--transition);
+}
+
+.footer-socials i:hover{
+    color: var(--color-primary);
 }
 
 .copyright{
@@ -562,6 +576,17 @@ footer ul li a:hover{
         cursor: pointer;
     }
 
+    #open-menu-btn i,
+    #close-menu-btn i{
+        color: var(--color--black);
+    }
+
+    .window-scroll #open-menu-btn i,
+    .window-scroll #close-menu-btn i{
+        color: var(--color-white);
+    }
+
+
     #close-menu-btn{
         display: none;
     }
@@ -632,7 +657,7 @@ footer ul li a:hover{
     .btn-flip a:after{
     height: 3rem;
     width: 10rem;
-    border: 5px solid transparent;
+    border: 5px solid var(--color-primary);
     border-radius: 5px;
     }
     
