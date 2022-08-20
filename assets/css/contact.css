@@ -1,5 +1,6 @@
 :root{
     --color-primary: #36005a;
+    --color-primary-var: #910beb;
     --color-success: #00bf8e;
     --color--warning: #f7c94b;
     --color--danger: #f75842;
@@ -60,14 +61,14 @@
 }
 
 .contact-socials{
-    /* display: flex; */
+    display: flex;
     gap: 0.8rem;
     margin-top: 3rem;
 }
 
 .contact-socials a{
     background: var(--color--bg-2);
-    padding: 0.5rem;
+    padding: 0.3rem 0.6rem;
     border-radius: 50%;
     font-size: 0.9rem;
     transition: var(--transition);

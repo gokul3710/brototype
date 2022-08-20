@@ -13,7 +13,7 @@
 
 :root{
     --color-primary: #36005a;
-    --color-primary-var: #36005a;
+    --color-primary-var: #910beb;
     --color-success: #00bf8e;
     --color--warning: #f7c94b;
     --color--danger: #f75842;
@@ -118,7 +118,7 @@ img{
 }
 
 .btn-primary{
-    background: var(--color--danger);
+    background: var(--color-primary-var);
     color: var(--color--white);
 }
 
@@ -202,7 +202,7 @@ nav button{
 }
 
 .nav-menu a:hover{
-    color: var(--color--bg-2);
+    color: var(--color-primary-var);
 }
 
 /* ===================== ----- HEADER ----- ===================== */

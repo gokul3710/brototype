@@ -1,5 +1,6 @@
 :root{
     --color-primary: #36005a;
+    --color-primary-var: #910beb;
     --color-success: #00bf8e;
     --color--warning: #f7c94b;
     --color--danger: #f75842;
@@ -53,21 +54,12 @@
 }
 
 .achievement-icon{
-    background: var(--color--danger);
-    padding: 0 0.6rem;
+    background: var(--color-primary-var);
+    padding: 0 0.8rem;
     border-radius: 1rem;
     display: inline-block;
     margin-bottom: 2rem;
     font-size: 2rem;
-}
-
-
-.achievement-card:nth-last-child(2) .achievement-icon{
-    background: var(--color-success);
-}
-
-.achievement-card:nth-last-child(3) .achievement-icon{
-    background: var(--color-primary);
 }
 
 .achievement-card p{
