@@ -32,7 +32,6 @@ self.addEventListener("install", e=>{
                 "./assets/images/live-sessions.jpg",
                 "./assets/images/Programming-pana.svg",
                 "./assets/images/contact.svg",
-                "./assets/images/about achievements.svg"
             ]);
         })
     )
