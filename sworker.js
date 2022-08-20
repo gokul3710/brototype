@@ -8,9 +8,9 @@ self.addEventListener("install", e=>{
                 "./contact.html",
                 "./courses.html",
                 "./assets/css/style.css",
-                "./assets/js/about.js",
-                "./assets/js/courses.js",
-                "./assets/js/contact.js",
+                "./assets/js/about.css",
+                "./assets/js/courses.css",
+                "./assets/js/contact.css",
                 "./assets/js/main.js",
                 "./assets/images/icon.png",
                 "./assets/images/logo-theme-black.png",
@@ -30,8 +30,8 @@ self.addEventListener("install", e=>{
 //                 "./assets/images/boiler-room.jpg",
 //                 "./assets/images/web-hosting.jpg",
 //                 "./assets/images/live-sessions.jpg",
-                "./assets/images/Programming-pana.svg",
-                "./assets/images/contact.svg",
+//                 "./assets/images/Programming-pana.svg",
+//                 "./assets/images/contact.svg",
             ]);
         })
     )
