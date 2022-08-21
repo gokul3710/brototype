@@ -748,19 +748,24 @@ footer ul li a:hover{
         grid-template-columns: 1fr;
         text-align: center;
         gap: 0;
+        padding-bottom: 3rem;
     }
 
     .header-left p{
         margin-bottom: 1.3rem;
     }
 
+    .header-right{
+        height: fit-content;
+    }
+
     .header-right-img iframe{
-        height: 225px;
-        width: 400px;
+        width: 94%;
+        height: calc(94vw * 9/16);
     }
 
     .categories{
-        padding: 0;
+        padding-top: 3rem;
     }
 
     .categories-right{
@@ -802,21 +807,5 @@ footer ul li a:hover{
 
     .footer-socials{
         justify-content: center;
-    }
-}
-
-
-@media screen and (max-width: 440px) {
-    .header-right-img iframe{
-        height: 180px;
-        width: 320px;
-    }
-}
-
-
-@media screen and (max-width: 340px) {
-    .header-right-img iframe{
-        height: 135px;
-        width: 240px;
     }
 }
