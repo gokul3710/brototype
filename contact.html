@@ -13,6 +13,9 @@
     <!-- ICONS FROM FONTAWESOME -->
     <script src="https://kit.fontawesome.com/e1811e7568.js" crossorigin="anonymous"></script>
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 </head>
 <body>
 
@@ -57,7 +60,7 @@
                     <a href="https://linkedin.com/company/brototype"><i class="fa-brands fa-linkedin"></i></a>
                 </ul>
             </aside>
-            <form class="contact-form">
+            <form class="contact-form" id="submit-form" action="">
                 <div class="form-name">
                     <input type="text" name="First Name" placeholder="First Name" required>
                     <input type="text" name="Last Name"  placeholder="Last Name" required>
@@ -168,5 +171,25 @@
     </script>
 
     <script src="./assets/js/main.js"></script>
+
+    <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycby-MroxjJRcQXhRZWTgwiy8IfaDO8J4scUoXsqAB90FqUUQkToLD0JbUqtEEdl4bufF/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 </body>
 </html>
