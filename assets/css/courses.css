@@ -17,6 +17,10 @@
     margin-top: 1rem;
 }
 
+#new-videos{
+    border-bottom: 1px solid var(--color-primary);
+}
+
 .other-videos{
     margin-top: 6rem;
     border-top: 1px solid var(--color-primary);
