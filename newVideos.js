@@ -1,32 +1,27 @@
 const newVideos = [
     {
-        Image: './assets/images/tech-tips.jpg',
+        Id: 't_-oOPrQOto',
         Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
-        Link: 'https://youtu.be/KQm-MDMGK2s',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
+        Id: 'OcKOra1Pd4Y',
         Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
-        Link: 'https://youtu.be/KQm-MDMGK2s',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
+        Id: 'W8VwmXd0VRw',
         Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
-        Link: 'https://youtu.be/KQm-MDMGK2s',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
+        Id: 'TbcFUYMMrCw',
         Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
-        Link: 'https://youtu.be/KQm-MDMGK2s',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
+        Id: 'KQm-MDMGK2s',
         Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
-        Link: 'https://youtu.be/KQm-MDMGK2s',
     }
 ]
