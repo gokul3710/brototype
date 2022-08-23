@@ -1,7 +1,3 @@
-function newVidoes() {
-    const heading = document.querySelector('#new-videos h2');
-    heading.innerHTML = 'Latest Videos';
-  
     newVideos.forEach(newVideo => {
         const newVideoArticle = document.createElement('article');
         const newVideoArticleContent = `
@@ -11,6 +7,3 @@ function newVidoes() {
     newVideoArticle.innerHTML = newVideoArticleContent;
     document.querySelector('.videos-container').appendChild(newVideoArticle);
     })
-  }
-  
-  newVidoes();
