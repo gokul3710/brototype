@@ -35,7 +35,17 @@
         </div>
     </nav>
     <!-- ===================== ----- COURSES ----- ===================== -->
+
+    <section class="courses" id="new-videos">
+        <h2>Latest Videos</h2>
+        <div class="container courses-container videos-container"></div>
+    </section>
     
+
+    <!-- ===================== ----- COURSES ----- ===================== -->
+
+
+
     <section class="courses">
         <h2>Coding Challenges</h2>
         <div class="container courses-container">
@@ -46,7 +56,7 @@
                 <div class="course-info">
                     <h4>100K Coding Challenge</h4>
                     <p>Introduction to Programming.<br>Basics of C and Java.</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(1)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -56,7 +66,7 @@
                 <div class="course-info">
                     <h4>Web Designing Challenge</h4>
                     <p>Introduction to Web Designing.<br>HTML5, CSS and JavaScript.</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(2)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -66,7 +76,7 @@
                 <div class="course-info">
                     <h4>Date With Git Challenge</h4>
                     <p>Introduction to Version Controller.<br>Git, GitHub and Gitlab</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(3)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -76,7 +86,7 @@
                 <div class="course-info">
                     <h4>Python Challenge</h4>
                     <p>Introduction to Python</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="" class="btn btn-primary" onclick="call(4)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -86,7 +96,7 @@
                 <div class="course-info">
                     <h4>Web Development Challenge</h4>
                     <p>Web Development using Node.js, MongoDb, Express.</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="" class="btn btn-primary" onclick="call(5)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -96,7 +106,7 @@
                 <div class="course-info">
                     <h4>Data Structure Challenge</h4>
                     <p>Introduction to Data Organisation, Management and Storage.</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="" class="btn btn-primary" onclick="call(6)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -106,7 +116,7 @@
                 <div class="course-info">
                     <h4>React Challenge</h4>
                     <p>Introduction to React.</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="" class="btn btn-primary" onclick="call(7)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -116,7 +126,7 @@
                 <div class="course-info">
                     <h4>Flutter Challenge</h4>
                     <p>Mobile App Development using Flutter</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="" class="btn btn-primary" onclick="call(8)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -126,11 +136,23 @@
                 <div class="course-info">
                     <h4>Game Development Challenge</h4>
                     <p>Game Development ising Unity</p>
-                    <a href="" class="btn btn-primary">Learn More</a>
+                    <a href="" class="btn btn-primary" onclick="call(9)">Learn More</a>
                 </div>
             </article>
         </div>
 
+        
+
+        <!-- ===================== ----- CHALLENGES ----- ===================== -->
+
+        <section class="courses challenges" id="challenges">
+            <h2></h2>
+            <div class="container courses-container challenges-container"></div>
+        </section>
+
+
+
+        <!-- ===================== ----- OTHER VIDEOS ----- ===================== -->
 
         <h2 class="other-videos">Other Tech Videos</h2>
         <div class="container courses-container">
@@ -268,6 +290,13 @@
 			<!-- /move top -->
     </footer>
 
+    <!-- <script src="./newVideos.js"></script>
+    <script src="./newVideoMain.js"></script> -->
+
+    <script src="./newVideoMain.js"></script>
+    <script src="./assets/js/main.js"></script>
+    
+
     <script>
         $(window).on("scroll", function () {
             var scroll = $(window).scrollTop();
@@ -295,6 +324,6 @@
         });
     </script>
 
-    <script src="./assets/js/main.js"></script>
+    
 </body>
 </html>

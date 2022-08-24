@@ -285,7 +285,7 @@ header{
     gap: 1.2rem;
 }
 
-.category{
+.categories-right article{
     background: var(--color-white);
     padding: 2rem;
     border-radius: 2rem;
@@ -298,29 +298,29 @@ header{
     border-radius: 0.9rem;
 }
 
-.category h5{
+.categories-right article h5{
     margin: 2rem 0 1rem ;
 }
 
-.category p{
+.categories-right article p{
     font-size: 0.85rem;
 }
 
-.category:hover{
+.categories-right article:hover{
     z-index: 1;
     background-color: var(--color-primary);
 }
 
-.category:hover .category-icon{
+.categories-right article:hover .category-icon{
     background-color: var(--color-white);
 }
 
-.category:hover .category-icon i{
+.categories-right article:hover .category-icon i{
     color: var(--color-primary);
 }
 
-.category:hover p,
-.category:hover h5{
+.categories-right article:hover p,
+.categories-right article:hover h5{
     color: var(--color-white);
 }
 
@@ -773,7 +773,7 @@ footer ul li a:hover{
         gap: 0.7rem;
     }
 
-    .category{
+    .categories-right article{
         padding: 1rem;
         border-radius: 1rem;
     }
