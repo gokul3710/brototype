@@ -1,4 +1,4 @@
-const gitVideos = [
+const dataStructureVideos = [
     {
         Id: 'Va37c30zA-M',
         Name: 'Tech & Career Tips',

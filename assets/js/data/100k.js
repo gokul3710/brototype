@@ -1,53 +1,53 @@
 const HundredkVideos = [
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Introduction to C',
-        Details: 'Videos on Different IT Domains & Careers.',
-        // link: ,
-    },
-    {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Variables and Datatypes',
+        Id: 'pDmEYRhyusU',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Conditional Statements',
+        Id: 'qGGqnzvKjmM',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Loops in C (FOR Loop)',
+        Id: 'W7s0upNfcKY',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Array and Array Operations',
+        Id: 'YfaJzXFbFcQ',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Functions and Types of Functions',
+        Id: 'd0drJeqmiws',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'OOP Concept, Class and Object',
+        Id: 'lFgyEWxNI58',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Constructrs , Inheritance, Polymorphism',
+        Id: 'G1FahZ5Sgik',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Abstract Class, Exceptions, Threads',
+        Id: 'MxuTGyBz9BA',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
     {
-        Image: './assets/images/tech-tips.jpg',
-        Name: 'Calculator Project from Scratch',
+        Id: 'MRFD3Cnug1Q',
+        Name: 'Tech & Career Tips',
         Details: 'Videos on Different IT Domains & Careers.',
     },
+    {
+        Id: 'AUxawaW4DAc',
+        Name: 'Tech & Career Tips',
+        Details: 'Videos on Different IT Domains & Careers.',
+    },
+
 ]

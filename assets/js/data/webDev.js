@@ -1,4 +1,4 @@
-const gitVideos = [
+const webDevVideos = [
     {
         Id: 'Va37c30zA-M',
         Name: 'Tech & Career Tips',

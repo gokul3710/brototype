@@ -5,9 +5,9 @@ function hundredk() {
     HundredkVideos.forEach(HundredkVideo => {
         const HundredkVideoArticle = document.createElement('article');
         const HundredkVideoArticleContent = `
-                                    <div class="course-image"><img src="${HundredkVideo.Image}"></div>
-                                    <div class="course-info"><h4>${HundredkVideo.Name}</h4><p>${HundredkVideo.Details}</p><a href="" class="btn btn-primary">Watch Video</a></div>
-                                    `;
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${HundredkVideo.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${HundredkVideo.Name}</h4><p>${HundredkVideo.Details}</p><a href="https://youtu.be/${HundredkVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
     HundredkVideoArticle.innerHTML = HundredkVideoArticleContent;
     document.querySelector('.challenges-container').appendChild(HundredkVideoArticle);
     })
@@ -20,9 +20,9 @@ function webDesign() {
     webDesignVideos.forEach(webDesignVideo => {
         const webDesignVideoArticle = document.createElement('article');
         const webDesignVideoArticleContent = `
-                                    <div class="course-image"><img src="${webDesignVideo.Image}"></div>
-                                    <div class="course-info"><h4>${webDesignVideo.Name}</h4><p>${webDesignVideo.Details}</p><a href="" class="btn btn-primary">Watch Video</a></div>
-                                    `;
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${webDesignVideo.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${webDesignVideo.Name}</h4><p>${webDesignVideo.Details}</p><a href="https://youtu.be/${webDesignVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
     webDesignVideoArticle.innerHTML = webDesignVideoArticleContent;
     document.querySelector('.challenges-container').appendChild(webDesignVideoArticle);
     })
@@ -35,15 +35,30 @@ function gitChallenge() {
     gitVideos.forEach(gitVideo => {
         const gitVideoArticle = document.createElement('article');
         const gitVideoArticleContent = `
-                                    <div class="course-image"><img src="${gitVideo.Image}"></div>
-                                    <div class="course-info"><h4>${gitVideo.Name}</h4><p>${gitVideo.Details}</p><a href="" class="btn btn-primary">Watch Video</a></div>
-                                    `;
+                                            <div class="course-image"><img src="https://img.youtube.com/vi/${pythonVideo.Id}/maxresdefault.jpg"></div>
+                                            <div class="course-info"><h4>${pythonVideo.Name}</h4><p>${pythonVideo.Details}</p><a href="https://youtu.be/${pythonVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+                                        `;
     gitVideoArticle.innerHTML = gitVideoArticleContent;
     document.querySelector('.challenges-container').appendChild(gitVideoArticle);
     })
 }
 
-var number;
+function pythonChallenge() {
+    const heading = document.querySelector('.challenges h2');
+    heading.innerHTML = 'Date With python Challenge';
+
+    pythonVideos.forEach(pythonVideo => {
+        const pythonVideoArticle = document.createElement('article');
+        const pythonVideoArticleContent = `
+                                            <div class="course-image"><img src="https://img.youtube.com/vi/${gitVideo.Id}/maxresdefault.jpg"></div>
+                                            <div class="course-info"><h4>${gitVideo.Name}</h4><p>${gitVideo.Details}</p><a href="https://youtu.be/${gitVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+                                        `;
+    pythonVideoArticle.innerHTML = pythonVideoArticleContent;
+    document.querySelector('.challenges-container').appendChild(pythonVideoArticle);
+    })
+}
+
+
 function call(number){
     const challenges = document.getElementById("challenges");
     challenges.style.marginTop = "6rem";
