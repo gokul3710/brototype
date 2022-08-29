@@ -1,4 +1,4 @@
-fetch('https://sheet.best/api/sheets/9f60faf9-2355-4c79-b0b0-d888a3d3766a')
+fetch('https://script.google.com/macros/s/AKfycbylP9-4EEgc1kvvawNNYlxsLl3tpp7N4ugUh9cSydMenKHAtQ4-0lvKVpC4Oo8FgmyW/exec')
 .then((response) => response.json())
 .then((data) => {
     console.log(data);
