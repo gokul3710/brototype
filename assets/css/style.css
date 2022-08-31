@@ -232,6 +232,10 @@ nav button{
     content: url(../images/logo-white-black.png);
 }
 
+.dark .window-scroll div a img{
+    content: url(../images/logo-black-white.png);
+}
+
 /* .window-scroll a{
     color: var(--color-white);
 } */
