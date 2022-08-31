@@ -51,3 +51,9 @@ if(document.body.clientWidth < 1024){
     navLink.addEventListener('click', closeNav);
   })
 }
+
+
+const theme = document.querySelector("#theme");
+theme.addEventListener('click', () => {
+  document.body.classList.toggle("dark");
+})

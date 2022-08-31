@@ -26,6 +26,17 @@
     --transition: all 400ms ease;
 }
 
+.dark{
+    --color-white: rgb(0, 0, 0);
+    --color--light: rgba(0, 0, 0, 0.7);
+    --color--black: #ffffff;
+    --color--bg: hsl(0, 0%, 6%);
+}
+
+.dark nav div a img{
+    content: url(../images/logo-theme-white.png);
+}
+
 ::-webkit-scrollbar{
     width: 0.5rem;
     background: var(--color-white);
@@ -66,22 +77,31 @@ section h2{
 
 h1,h2,h3,h4,h5{
     line-height: 1.2;
+    color: var(--color--black);
 }
 
 h1{
     font-size: 2.4rem;
+    color: var(--color--black);
 }
 
 h2{
     font-size: 2rem;
+    color: var(--color--black);
 }
 
 h3{
     font-size: 1.6rem;
+    color: var(--color--black);
 }
 
 h4{
     font-size: 1.3rem;
+    color: var(--color--black);
+}
+
+p{
+    color: var(--color--black);
 }
 
 a{
@@ -111,13 +131,8 @@ img{
 
 .btn:hover{
     background-color: transparent;
-    color: var(--color-black);
+    color: var(--color--black);
     border-color: var(--color-primary);
-}
-
-.btn-primary{
-    background: var(--color-primary-var);
-    color: var(--color-black);
 }
 
 .btn-flip{
@@ -197,6 +212,7 @@ nav button{
     font-size: 0.9rem;
     transition: var(--transition);
     font-weight: 600;
+    color: var(--color--black);
 }
 
 .nav-menu a:hover{
@@ -296,6 +312,10 @@ header{
     background: var(--color-primary-var);
     padding: 0.7rem;
     border-radius: 0.9rem;
+}
+
+.category-icon i{
+    color: #fff;
 }
 
 .category h5{
@@ -483,6 +503,7 @@ footer{
 
 footer ul li{
     margin-bottom: 0.7rem;
+    color: var(--color--black);
 }
 
 footer ul li a:hover{
@@ -511,6 +532,7 @@ footer ul li a:hover{
     margin-top: 4rem;
     padding: 1.2rem;
     border-top: 1px solid var(--color-primary);
+    color: var(--color--black);
 }
 
 

@@ -57,6 +57,10 @@
     color: var(--color-white);
 }
 
+.contact-details li h5{
+    color: var(--color-white);
+}
+
 .contact-socials{
     display: flex;
     gap: 0.8rem;
