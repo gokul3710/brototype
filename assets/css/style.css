@@ -522,12 +522,12 @@ footer ul li a:hover{
     margin-top: 1rem;
 }
 
-.footer-socials i{
+.footer-socials li{
     color: var(--color--black);
     transition: var(--transition);
 }
 
-.footer-socials i:hover{
+.footer-socials li:hover{
     color: var(--color-primary);
 }
 
