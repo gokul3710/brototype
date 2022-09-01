@@ -209,15 +209,15 @@ nav button{
     transition: var(--transition);
 }
 
-.posts-container article:hover {
+/* .posts-container article:hover {
     
-}
+} */
 
 /* ================================= ------ FEATURED POST ------ ================================= */
 
 .featured{
     margin-top: 5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
     padding-top: 3rem;
     background-color: var(--color-bg);
 }
@@ -244,7 +244,7 @@ nav button{
 
 .posts{
     margin-top: 0;
-    padding-top: 3rem;
+    padding-top: 5rem;
 }
 
 .posts-container{
