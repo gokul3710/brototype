@@ -1,60 +1,162 @@
 function hundredk() {
     const heading = document.querySelector('.challenges h2');
     heading.innerHTML = '100K Coding Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
 
-    HundredkVideos.forEach(HundredkVideo => {
-        const HundredkVideoArticle = document.createElement('article');
-        const HundredkVideoArticleContent = `
-                                                <div class="course-image"><img src="https://img.youtube.com/vi/${HundredkVideo.Id}/maxresdefault.jpg"></div>
-                                                <div class="course-info"><h4>${HundredkVideo.Name}</h4><p>${HundredkVideo.Details}</p><a href="https://youtu.be/${HundredkVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+
+    HundredkVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
                                             `;
-    HundredkVideoArticle.innerHTML = HundredkVideoArticleContent;
-    document.querySelector('.challenges-container').appendChild(HundredkVideoArticle);
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
     })
 }
 
 function webDesign() {
     const heading = document.querySelector('.challenges h2');
     heading.innerHTML = 'Web Design Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
 
-    webDesignVideos.forEach(webDesignVideo => {
-        const webDesignVideoArticle = document.createElement('article');
-        const webDesignVideoArticleContent = `
-                                                <div class="course-image"><img src="https://img.youtube.com/vi/${webDesignVideo.Id}/maxresdefault.jpg"></div>
-                                                <div class="course-info"><h4>${webDesignVideo.Name}</h4><p>${webDesignVideo.Details}</p><a href="https://youtu.be/${webDesignVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+
+    webDesignVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
                                             `;
-    webDesignVideoArticle.innerHTML = webDesignVideoArticleContent;
-    document.querySelector('.challenges-container').appendChild(webDesignVideoArticle);
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
     })
 }
 
 function gitChallenge() {
     const heading = document.querySelector('.challenges h2');
     heading.innerHTML = 'Date With Git Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
 
-    gitVideos.forEach(gitVideo => {
-        const gitVideoArticle = document.createElement('article');
-        const gitVideoArticleContent = `
-                                            <div class="course-image"><img src="https://img.youtube.com/vi/${pythonVideo.Id}/maxresdefault.jpg"></div>
-                                            <div class="course-info"><h4>${pythonVideo.Name}</h4><p>${pythonVideo.Details}</p><a href="https://youtu.be/${pythonVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+
+    gitVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                            <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                            <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
                                         `;
-    gitVideoArticle.innerHTML = gitVideoArticleContent;
-    document.querySelector('.challenges-container').appendChild(gitVideoArticle);
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
     })
 }
 
 function pythonChallenge() {
     const heading = document.querySelector('.challenges h2');
-    heading.innerHTML = 'Date With python Challenge';
+    heading.innerHTML = 'Python Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
+    
 
-    pythonVideos.forEach(pythonVideo => {
-        const pythonVideoArticle = document.createElement('article');
-        const pythonVideoArticleContent = `
-                                            <div class="course-image"><img src="https://img.youtube.com/vi/${gitVideo.Id}/maxresdefault.jpg"></div>
-                                            <div class="course-info"><h4>${gitVideo.Name}</h4><p>${gitVideo.Details}</p><a href="https://youtu.be/${gitVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+    pythonVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                            <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                            <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
                                         `;
-    pythonVideoArticle.innerHTML = pythonVideoArticleContent;
-    document.querySelector('.challenges-container').appendChild(pythonVideoArticle);
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
+    })
+}
+
+function webDev() {
+    const heading = document.querySelector('.challenges h2');
+    heading.innerHTML = 'Web Development Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
+
+
+    HundredkVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
+    })
+}
+
+function dataStructure() {
+    const heading = document.querySelector('.challenges h2');
+    heading.innerHTML = 'Data Structure Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
+
+
+    HundredkVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
+    })
+}
+
+function reactChallenge() {
+    const heading = document.querySelector('.challenges h2');
+    heading.innerHTML = 'React Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
+
+
+    HundredkVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
+    })
+}
+
+function flutterChallenge() {
+    const heading = document.querySelector('.challenges h2');
+    heading.innerHTML = 'Flutter Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
+
+
+    HundredkVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
+    })
+}
+
+function gameDev() {
+    const heading = document.querySelector('.challenges h2');
+    heading.innerHTML = 'Game Developmet Challenge';
+    const container = document.querySelector('.challenges-container')
+    container.innerHTML = ""
+
+
+    HundredkVideos.forEach(data => {
+        const dataArticle = document.createElement('article');
+        const dataArticleContent = `
+                                                <div class="course-image"><img src="https://img.youtube.com/vi/${data.Id}/maxresdefault.jpg"></div>
+                                                <div class="course-info"><h4>${data.Name}</h4><p>${data.Details}</p><a href="https://youtu.be/${data.Id}" class="btn btn-primary">Watch Video</a></div>
+                                            `;
+    dataArticle.innerHTML = dataArticleContent;
+    container.appendChild(dataArticle);
     })
 }
 
@@ -92,5 +194,169 @@ function call(number){
     else if(number==9){
         gameDev();
     }
+    else{
+        location.reload();
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// function hundredk() {
+//     const heading = document.querySelector('.challenges h2');
+//     heading.innerHTML = '100K Coding Challenge';
+
+//     const container = document.querySelector('.challenges-container')
+//     container.innerHTML = ""
+
+//     fetch('https://script.google.com/macros/s/AKfycbylP9-4EEgc1kvvawNNYlxsLl3tpp7N4ugUh9cSydMenKHAtQ4-0lvKVpC4Oo8FgmyW/exec')
+//     .then((response) => response.json())
+//     .then((data) => {
+//         console.log(data);
+
+//         if(data.length>0){
+//             var temp = '';
+
+//             data.forEach(newVideo => {
+//                 const newVideoArticle = document.createElement('article');
+//                 const newVideoArticleContent = `
+//                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${newVideo.Id}/maxresdefault.jpg"></div>
+//                                                     <div class="course-info"><h4>${newVideo.Name}</h4><p>${newVideo.Details}</p><a href="https://youtu.be/${newVideo.Id}" class="btn btn-primary">Watch Video</a></div>
+//                                                 `;
+//             newVideoArticle.innerHTML = newVideoArticleContent;
+//             container.appendChild(newVideoArticle);
+//             newVideoArticle.classList.toggle("course");
+//             })
+//         }
+//     });
+// }
