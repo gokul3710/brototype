@@ -19,6 +19,7 @@ function latestVideos(){
                                                 `;
             newVideoArticle.innerHTML = newVideoArticleContent;
             document.querySelector('.videos-container').appendChild(newVideoArticle);
+            newVideoArticle.classList.toggle("course");
             })
         }
     });

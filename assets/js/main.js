@@ -52,6 +52,7 @@ if(document.body.clientWidth < 1024){
   })
 }
 
+// Theme Togggler
 
 const theme = document.querySelector("#theme");
 theme.addEventListener('click', () => {

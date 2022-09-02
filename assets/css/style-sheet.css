@@ -63,7 +63,8 @@ body{
     font-size: 0.9rem;
     background: var(--color-white);
     font-family: 'Montserrat', sans-serif;
-}
+    user-select: none;
+} 
 
 .container{
     width: var(--container-width-lg);
@@ -209,10 +210,6 @@ nav button{
     transition: var(--transition);
 }
 
-/* .posts-container article:hover {
-    
-} */
-
 /* ================================= ------ FEATURED POST ------ ================================= */
 
 .featured{
@@ -252,8 +249,13 @@ nav button{
     grid-template-columns: repeat(3, 1fr);
     gap: 5rem;
     margin-bottom: 5rem;
+    text-align: center;
 }
 
+.posts-container article .post-info{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 /* ===================== ----- FOOTER ----- ===================== */
 
 
