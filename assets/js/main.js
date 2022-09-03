@@ -53,17 +53,21 @@ if(document.body.clientWidth < 1024){
 }
 
 
+//categories article in home page
+
+
 function category(){
   Categories.forEach(category => {
     const article = document.createElement('article');
-    const articleContent = `<span class="category-icon">${category.categoryIcon}</span>
-                            <h5>${category.categoryName}</h5>
-                            <p>${category.categoryDetails}</p>
+    const articleContent = `
+                              <span class="category-icon">${category.categoryIcon}</span>
+                              <h5>${category.categoryName}</h5>
+                              <p>${category.categoryDetails}</p>
                             `;
     article.innerHTML = articleContent;
     document.querySelector(".categories-right").appendChild(article);
     
-    // document.querySelector('.categories-right article').classList.toggle('category');
+    article.classList.toggle('category');
   
   })
 }

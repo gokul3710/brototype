@@ -13,6 +13,7 @@ function hundredk() {
                                             `;
     dataArticle.innerHTML = dataArticleContent;
     container.appendChild(dataArticle);
+    dataArticle.classList.toggle("course");
     })
 }
 

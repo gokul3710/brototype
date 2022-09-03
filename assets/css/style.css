@@ -285,7 +285,7 @@ header{
     gap: 1.2rem;
 }
 
-.categories-right article{
+.category{
     background: var(--color-white);
     padding: 2rem;
     border-radius: 2rem;
@@ -298,29 +298,29 @@ header{
     border-radius: 0.9rem;
 }
 
-.categories-right article h5{
+.category h5{
     margin: 2rem 0 1rem ;
 }
 
-.categories-right article p{
+.category p{
     font-size: 0.85rem;
 }
 
-.categories-right article:hover{
+.category:hover{
     z-index: 1;
     background-color: var(--color-primary);
 }
 
-.categories-right article:hover .category-icon{
+.category:hover .category-icon{
     background-color: var(--color-white);
 }
 
-.categories-right article:hover .category-icon i{
+.category:hover .category-icon i{
     color: var(--color-primary);
 }
 
-.categories-right article:hover p,
-.categories-right article:hover h5{
+.category:hover p,
+.category:hover h5{
     color: var(--color-white);
 }
 
@@ -773,7 +773,7 @@ footer ul li a:hover{
         gap: 0.7rem;
     }
 
-    .categories-right article{
+    .category{
         padding: 1rem;
         border-radius: 1rem;
     }
