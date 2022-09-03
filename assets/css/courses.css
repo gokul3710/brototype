@@ -17,6 +17,27 @@
     margin-top: 1rem;
 }
 
+.course-image:hover img{
+    filter: contrast(1.2);
+}
+
+#challenges{
+    margin-top: 0;
+    padding: 0;
+}
+
+#challenges article{
+    background: var(--color--bg);
+    text-align: center;
+    border: 2px solid transparent;
+    transition: var(--transition);
+}
+
+#challenges article:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
 #new-videos{
     border-top: 1px solid var(--color-primary);
 }
@@ -26,15 +47,3 @@
     border-top: 1px solid var(--color-primary);
     padding-top: 6rem;
 }  
-
-.videos-container article{
-    background: var(--color--bg);
-    text-align: center;
-    border: 1px solid transparent;
-    transition: var(--transition);
-}
-
-.videos-container article:hover{
-    background: transparent;
-    border-color: var(--color-primary);
-}

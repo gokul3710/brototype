@@ -56,7 +56,7 @@
                 <div class="course-info">
                     <h4>100K Coding Challenge</h4>
                     <p>Introduction to Programming.<br>Basics of C and Java.</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHeKaBI7lAM1jbIPU8K6fUxY" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(1)" >Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -66,7 +66,7 @@
                 <div class="course-info">
                     <h4>Web Designing Challenge</h4>
                     <p>Introduction to Web Designing.<br>HTML5, CSS and JavaScript.</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHfRMEmW_ltccnJcMtSGUKSk" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(2)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -76,7 +76,7 @@
                 <div class="course-info">
                     <h4>Date With Git Challenge</h4>
                     <p>Introduction to Version Controller.<br>Git, GitHub and Gitlab</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHdLhAO6TERaMJXP8aqyWVt-" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(3)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -86,7 +86,7 @@
                 <div class="course-info">
                     <h4>Python Challenge</h4>
                     <p>Introduction to Python</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHfbpOmWamlb8Mujjdnl1jks" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(4)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -96,7 +96,7 @@
                 <div class="course-info">
                     <h4>Web Development Challenge</h4>
                     <p>Web Development using Node.js, MongoDb, Express.</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHd8R8sg-4vhN2BzZQLxIZO9" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(5)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -106,7 +106,7 @@
                 <div class="course-info">
                     <h4>Data Structure Challenge</h4>
                     <p>Introduction to Data Organisation, Management and Storage.</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHc5kajCd3fHU6MhkTABkRh9" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(6)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -116,7 +116,7 @@
                 <div class="course-info">
                     <h4>React Challenge</h4>
                     <p>Introduction to React.</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHfgVM9sChmUirqK7BXUBX9P" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(7)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -126,7 +126,7 @@
                 <div class="course-info">
                     <h4>Flutter Challenge</h4>
                     <p>Mobile App Development using Flutter</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHcUlBVvIMAa3dbja12TFJiN" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(8)">Learn More</a>
                 </div>
             </article>
             <article class="course">
@@ -136,10 +136,20 @@
                 <div class="course-info">
                     <h4>Game Development Challenge</h4>
                     <p>Game Development Using Unity</p>
-                    <a href="https://youtube.com/playlist?list=PLY-ecO2csVHegnXkm4aLAZTRF_3nTMJMW" class="btn btn-primary" target="_blank">Learn More</a>
+                    <a href="#challenges" class="btn btn-primary" onclick="call(9)">Learn More</a>
                 </div>
             </article>
         </div>
+
+
+        <!-- ===================== ----- CHALLENGES ----- ===================== -->
+
+        <section class="courses challenges" id="challenges">
+            <h2></h2>
+            <div class="container courses-container challenges-container"></div>
+        </section>
+
+        <!-- ===================== ----- OTHER VIDEOS ----- ===================== -->
 
 
         <h2 class="other-videos">Other Tech Videos</h2>
@@ -286,36 +296,8 @@
 			<!-- /move top -->
     </footer>
 	
-
-    <script src="./newVideoMain.js"></script>
-
-    <script>
-        $(window).on("scroll", function () {
-            var scroll = $(window).scrollTop();
-
-            if (scroll >= 80) {
-                $("#site-header").addClass("nav-fixed");
-            } else {
-                $("#site-header").removeClass("nav-fixed");
-            }
-        });
-
-        //Main navigation Active Class Add Remove
-        $(".navbar-toggler").on("click", function () {
-            $("header").toggleClass("active");
-        });
-        $(document).on("ready", function () {
-            if ($(window).width() > 991) {
-                $("header").removeClass("active");
-            }
-            $(window).on("resize", function () {
-                if ($(window).width() > 991) {
-                    $("header").removeClass("active");
-                }
-            });
-        });
-    </script>
-
+    <script src="./assets/js/challenges.js"></script>
+    <script src="./assets/js/latestVideos.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 </html>
