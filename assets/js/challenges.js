@@ -44,7 +44,7 @@ function webDesign() {
             data.forEach(video => {
                 const videoArticle = document.createElement('article');
                 const videoArticleContent = `
-                                                    <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
+                                                    <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/default.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
             videoArticle.innerHTML = videoArticleContent;
@@ -73,7 +73,7 @@ function gitChallenge() {
             data.forEach(video => {
                 const videoArticle = document.createElement('article');
                 const videoArticleContent = `
-                                                    <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
+                                                    <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/default.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
             videoArticle.innerHTML = videoArticleContent;
@@ -102,7 +102,7 @@ function pythonChallenge() {
             data.forEach(video => {
                 const videoArticle = document.createElement('article');
                 const videoArticleContent = `
-                                                    <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
+                                                    <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/default.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
             videoArticle.innerHTML = videoArticleContent;
