@@ -189,5 +189,13 @@
         .team-member p{
             margin-bottom: 1.5rem;
         }
+
+        .team-member-info h4{
+            font-size: 1rem;
+        }
+
+        .team-member-info p{
+            font-size: 0.8rem;
+        }
     }
 }
