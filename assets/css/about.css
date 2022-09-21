@@ -107,11 +107,12 @@
 }
 
 .team-member-image img{
-    filter: saturate(0);
+    filter: saturate(0.7);
 }
 
 .team-member:hover .team-member-image img{
-    filter: saturate(1);
+    filter:saturate(1);
+    
 }
 
 .team-member-info{

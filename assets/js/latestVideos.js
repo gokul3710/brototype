@@ -25,4 +25,4 @@ function latestVideos(){
     });
 }
 
-latestVideos()
+latestVideos();
