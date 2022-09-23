@@ -18,9 +18,9 @@ function hundredk() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -47,9 +47,9 @@ function webDesign() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/sddefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -76,9 +76,9 @@ function gitChallenge() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/sddefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -105,9 +105,9 @@ function pythonChallenge() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/sddefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -134,9 +134,9 @@ function webDev() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -163,9 +163,9 @@ function dataStructure() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -192,10 +192,10 @@ function reactChallenge() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
-            })
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
+                })
         }
     });
 }
@@ -221,9 +221,9 @@ function flutterChallenge() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });
@@ -250,9 +250,9 @@ function gameDev() {
                                                     <div class="course-image"><img src="https://img.youtube.com/vi/${video.Id}/maxresdefault.jpg"></div>
                                                     <div class="course-info"><h4>${video.Name}</h4><p>${video.Details}</p><a href="https://youtu.be/${video.Id}" class="btn btn-primary">Watch Video</a></div>
                                                 `;
-            videoArticle.innerHTML = videoArticleContent;
-            container.appendChild(videoArticle);
-            videoArticle.classList.toggle("course");
+                videoArticle.innerHTML = videoArticleContent;
+                container.appendChild(videoArticle);
+                videoArticle.classList.toggle("course");
             })
         }
     });

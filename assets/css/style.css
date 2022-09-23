@@ -42,7 +42,6 @@ body{
     line-height: 1.7;
     color: var(--color-black);
     background: var(--color-white);
-    background-image: url(../images/bg-texture.pg);
 }
 
 html{
@@ -441,6 +440,7 @@ header{
     left: 50%;
     top: -1.5rem;
     transform: rotate(45deg);
+    z-index: -2;
 }
 
 .testimonial-body p{
